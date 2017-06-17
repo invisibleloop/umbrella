@@ -1,0 +1,24 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+@import '../../node_modules/normalize.css/normalize.css';
+@import '../../node_modules/font-awesome/css/font-awesome.css';
+@import 'colors';
+@import 'fonts';
+
+body {
+  background: $primary;
+  color: $white;
+  font-family: $font-family;
+}
+
+.popup {
+  padding: 20px;
+  width: 300px;
+}
+
+.message {
+  background: rgba($white, .2);
+  border-radius: 3px;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 15px;
+}
