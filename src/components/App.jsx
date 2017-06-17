@@ -5,7 +5,7 @@ export default class App extends Component {
 
   constructor(props) {
     super(props);
-    this.API_KEY = '9151ebd71be0afd8b6212fabfb68359d';
+    this.API_KEY = '###';
     this.API_URL = 'http://api.openweathermap.org/data/2.5/weather';
     this.units = 'metric';
     this.location = 'Sidcup';
